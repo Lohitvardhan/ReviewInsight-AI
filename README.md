@@ -1,21 +1,22 @@
-# Product Review
+# Quality Assessment
 
-Ever wanted to purchase a product online? Wanted to know how it actually fared? Social media and customer reviews are the best ways to decide the quality of a product. This project intends to help the user determine the reviews of the produdct using state-of-the-art techniques. 
+Designed a system to analyze and evaluate product quality based on customer reviews and social media content, leveraging state-of-the-art natural language processing techniques to assist users in making informed purchasing decisions.
 
-### Classification of Reviews
+### Customer Feedback Categorization
 
-Initial approaches involved CNNs and LSTMs, but they were insufficient and didn't perform upto the mark. With that we transitioned to use Transformers, which quitel literally transformed the project. A ribust model was made which classified tweets as positive, neutral and negative. 
+Initial approaches using CNNs and LSTMs were explored but did not deliver satisfactory performance for sentiment classification. This led to a transition toward Transformer-based architectures, which significantly improved the model's effectiveness. Leveraging state-of-the-art Transformer models, we developed a robust system capable of classifying tweets into positive, neutral, and negative categories with high accuracy. 
 
-### Useful Insights
 
-In addition to the review classification, we have also added functionalities such as 
- <ol>
-  <li>Word Cloud to determmine the most important features that have been stressed on by consumers.</li>
-  <li>Piechart which show the sentiment distribution</li>
-  <li>Tweets from all over the world translated to Engilsh for ease</li>
-  <li>Map depicting distribution of users of the product</li>
- <li>Stats on the Top twitter usage Platforms</li>
-</ol>
+### Additional Features
+
+In addition to sentiment classification, the project includes several insightful features to enhance understanding of customer feedback:
+
+- **Word Cloud**: Highlights the most frequently mentioned keywords, giving a quick overview of what users emphasize the most.
+- **Sentiment Distribution Pie Chart**: Visualizes the overall sentiment (positive, neutral, negative) across all collected reviews.
+- **Multilingual Tweet Translation**: Automatically translates tweets from various languages into English for consistent analysis.
+- **User Distribution Map**: Displays the geographical spread of users discussing the product.
+- **Top Twitter Platforms Statistics**: Provides insights into the most commonly used platforms for tweeting about the product.
+
  
 ### Installation
 To run the flask app in a  windows environment
